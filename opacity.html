@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Opacity</title>
+<style>
+	.main{
+		height:  100px;
+		width: 800px;
+	}
+	div.background {
+		background: url(pictures/img12.jpg) repeat;
+		border: 2px solid black;
+	}
+
+div.transbox {
+	margin: 70px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
+	filter: alpha(opacity=60);/*for IE8 and earlier*/
+}	
+
+div.tansbox p {
+	margin: 20%;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+</style>	
+</head>
+<body>
+
+
+<div class="main">	
+   <div class="background"> 
+        <div class="transbox">
+  	<p>This is some text that is placed in the transparent box.</p>
+
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
