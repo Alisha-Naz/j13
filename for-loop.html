@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>for-loop</title>
+</head>
+<body>
+
+	<h1>Increment</h1>
+
+	<script type="text/javascript">
+		
+		var count;
+		document.write("Starting Loop" + "<br />");
+
+		for (count = 0; count <= 10; count++){
+			document.write("current Count : " + count);
+			document.write("<br />");
+		}
+
+		document.write("Loop stopped!" + "<br />"); 			
+		</script>
+
+		<h1>Decrement</h1>
+
+		<script type="text/javascript">
+
+			
+			var count;
+
+			document.write("Starting Loop" + "<br />");
+
+			for (count = 10; count >= 0; count--){
+				document.write("Current Count : " + count);
+				document.write("<br />");
+			}
+
+			document.write("Loop stopped!");
+			
+		</script>
+
+		<h1>Friends</h1>
+
+		<script type="text/javascript">
+
+			var names = ["Ayesha", "Nida", "Iqra", "Moona", "Sadia", "Shaheen", "Rabia", "Areeba", "Faiqa", "Sidra"];
+			var text = "";
+
+			var i;
+
+			for (var i = 0; i < names.length; i++) {
+				text += names[i] + "<br />";
+			}
+			document.write(text);
+
+			
+		</script>
+	
+
+</body>
+</html>
